@@ -47,6 +47,14 @@ function equalTo(){
 	
 }
 
+//delete an element
+function deleteElemet(){
+	 num.pop(); 
+	document.getElementById('screen').innerHTML = num; //delete the last elemet and update it to the screen
+
+
+}
+
 
 // When user presses "AC", function "clearScr()" is called
 function clearScr(){

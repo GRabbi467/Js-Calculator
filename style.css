@@ -8,6 +8,9 @@ body{
     margin: 0;
     background:linear-gradient(to right,#00AAFF,#00ff6c);
 }
+h3{
+    text-align: center;
+}
 .calculator-grid{
     display: grid;
     justify-content: center;
