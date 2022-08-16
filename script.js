@@ -5,14 +5,12 @@ var ans;
 
 // All the numbers and operators input will be stored in an array "num" using function "sendNum()"
 function sendNum(digit){
-
-	num.push(digit);
+	     num.push(digit);
 
 	if(num.length != 1){
 		a = '';
 		document.getElementById('screen').innerHTML = a;		// clearing the screen.
 	}
-
 
 	for(i=0; i<num.length ; i++){
 
@@ -50,9 +48,8 @@ function equalTo(){
 //delete an element
 function deleteElemet(){
 	 num.pop(); 
-	document.getElementById('screen').innerHTML = num; //delete the last elemet and update it to the screen
-
-
+    let upnum = +num.join("");
+	document.getElementById('screen').innerHTML = upnum; //delete the last elemet and update it to the screen
 }
 
 
